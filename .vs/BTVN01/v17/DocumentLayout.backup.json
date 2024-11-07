@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HA-PC\\Dropbox\\PC\\Desktop\\Learn to Code\\BT Th\u1EF1c h\u00E0nh C\u002B\u002B tr\u00EAn l\u1EDBp\\BT V\u1EC1 nh\u00E0 1\\Code\\BTVN01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{330B07F7-EA4C-409C-8A8D-B6B679389761}|BTVN01.vcxproj|C:\\Users\\HA-PC\\Dropbox\\PC\\Desktop\\Learn to Code\\BT Th\u1EF1c h\u00E0nh C\u002B\u002B tr\u00EAn l\u1EDBp\\BT V\u1EC1 nh\u00E0 1\\Code\\BTVN01\\BTVN01_Bai12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{330B07F7-EA4C-409C-8A8D-B6B679389761}|BTVN01.vcxproj|solutionrelative:BTVN01_Bai12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BTVN01_Bai12.cpp",
+              "DocumentMoniker": "C:\\Users\\HA-PC\\Dropbox\\PC\\Desktop\\Learn to Code\\BT Th\u1EF1c h\u00E0nh C\u002B\u002B tr\u00EAn l\u1EDBp\\BT V\u1EC1 nh\u00E0 1\\Code\\BTVN01\\BTVN01_Bai12.cpp",
+              "RelativeDocumentMoniker": "BTVN01_Bai12.cpp",
+              "ToolTip": "C:\\Users\\HA-PC\\Dropbox\\PC\\Desktop\\Learn to Code\\BT Th\u1EF1c h\u00E0nh C\u002B\u002B tr\u00EAn l\u1EDBp\\BT V\u1EC1 nh\u00E0 1\\Code\\BTVN01\\BTVN01_Bai12.cpp",
+              "RelativeToolTip": "BTVN01_Bai12.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAcwEwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-07T14:08:31.208Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
