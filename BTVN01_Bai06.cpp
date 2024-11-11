@@ -5,8 +5,11 @@ using namespace std;
 int main() {
 	int n, tam, soDaoNguoc;
 
-	cout << "Nhap n = "; cin >> n;
-	
+	do {
+		cout << "Nhap n = "; cin >> n;
+		if (n < 0) cout << "n khong hop le!\n";
+	} while (n < 0);
+
 	tam = n;
 	soDaoNguoc = 0;
 
@@ -16,10 +19,10 @@ int main() {
 	}
 
 	if (n == soDaoNguoc) {
-		cout << n << " la so doi xung\n";
+		cout << n << " la so doi xung!\n";
 	}
 	else {
-		cout << n << " khong la so doi xung\n";
+		cout << n << " khong phai la so doi xung!\n";
 	}
 	return 0;
 }

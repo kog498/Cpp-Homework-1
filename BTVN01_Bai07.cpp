@@ -4,34 +4,34 @@
 using namespace std;
 
 int main() {
-	double a, b, c;
-	bool flag = true;
-	do {
-		cout << "Nhap vao 3 canh cua tam giac:\n";
-		cin >> a >> b >> c;
+	int a, b, c;
 
-		if ((a + b > c) && (b + c > a) && (c + a > b)) {
-			flag = false;
+	do {
+		cout << "Nhap 3 canh cua tam giac:\n";
+		cin >> a >> b >> c;
+		if (a + b > c && b + c > a && c + a > b) {
+			break;
 		}
 		else {
 			cout << "Do dai 3 canh tam giac khong hop le!\n";
 		}
-	} while (flag == true);
+	} while (true);
 
-	if ((a * a + b * b == c * c || b * b + c * c == a * a || c * c + a * a == b * b) && (a == b || a == c || b == c)) {
+	if ((pow(a, 2) + pow(b, 2) == pow(c, 2) || pow(b, 2) + pow(c, 2) == pow(a, 2) || pow(c, 2) + pow(a, 2) == pow(b, 2))
+		&& (a == b || a == c || b == c)) {
 		cout << "Day la tam giac vuong can!\n";
 	}
-	else if (a * a + b * b == c * c || b * b + c * c == a * a || c * c + a * a == b * b) {
+	else if (pow(a, 2) + pow(b, 2) == pow(c, 2) || pow(b, 2) + pow(c, 2) == pow(a, 2) || pow(c, 2) + pow(a, 2) == pow(b, 2)) {
 		cout << "Day la tam giac vuong!\n";
 	}
 	else if (a == b && b == c) {
 		cout << "Day la tam giac deu!\n";
 	}
 	else if (a == b || a == c || b == c) {
-		cout << "Day la tam giac can\n";
+		cout << "Day la tam giac can!\n";
 	}
 	else {
-		cout << "Day la tam giac nhon\n";
+		cout << "Day la tam giac nhon!\n";
 	}
 	return 0;
 }

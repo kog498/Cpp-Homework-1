@@ -9,7 +9,7 @@ int main() {
 	// Cau a
 	for (int i = 1; i <= h; i++) {
 		for (int j = 1; j <= i; j++) {
-			if (i == 1 || i == 2 || i == h || j == 1 || j == i) {
+			if (j == 1 || j == i || i == h) {
 				cout << "*";
 			}
 			else {
@@ -36,13 +36,8 @@ int main() {
 
 	// Cau c
 	for (int i = h; i >= 1; i--) {
-		for (int j = 1; j <= h; j++) {
-			if (j <= i) {
-				cout << "*";
-			}
-			else {
-				cout << " ";
-			}
+		for (int j = 1; j <= i; j++) {
+			cout << "*";
 		}
 		cout << endl;
 	}
@@ -51,11 +46,11 @@ int main() {
 	// Cau d
 	for (int i = 1; i <= h; i++) {
 		for (int j = 1; j <= h; j++) {
-			if (i != 1 && i > j) {
-				cout << " ";
+			if (j >= i) {
+				cout << "*";
 			}
 			else {
-				cout << "*";
+				cout << " ";
 			}
 		}
 		cout << endl;
@@ -63,13 +58,13 @@ int main() {
 	cout << endl;
 
 	// Cau e
-	for (int i = 1; i <= h; i++) {
+	for (int i = h; i >= 1; i--) {
 		for (int j = 1; j <= h; j++) {
-			if (j > h - i) {
-				cout << "* ";
+			if (j < i) {
+				cout << " ";
 			}
 			else {
-				cout << " ";
+				cout << "* ";
 			}
 		}
 		cout << endl;

@@ -1,24 +1,26 @@
 #include<iostream>
+#include<cmath>
+#include<iomanip>
 
 using namespace std;
 
 int main() {
-	int n, tam;
-	double tong;
+	int n;
+	double s;
 
 	do {
 		cout << "Nhap n = "; cin >> n;
-		if (n < 0) cout << "n khong hop le!\n";
+		if (n < 0) {
+			cout << "n khong hop le!\n";
+		}
 	} while (n < 0);
 
-	tam = n;
-	tong = sqrt(n);
+	s = sqrt(n);
 
-	while (tam >= 2) {
-		tong = sqrt(n + tong);
-		tam--;
+	for (int i = 2; i <= n; i++) {
+		s = sqrt(n + s);
 	}
 
-	cout << "S = " << tong << endl;
+	cout << "S = " << fixed << setprecision(2) << s * 1.0 << endl;
 	return 0;
 }
